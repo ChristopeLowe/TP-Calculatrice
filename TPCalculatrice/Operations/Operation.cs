@@ -2,7 +2,7 @@ using System;
 
 namespace TPCalculatrice.Operations;
 
-public abstract class Operation
+public abstract class Operation: IOperation
 {
     protected int OperandeGauche { get;}
     protected int OperandeDroite { get;}
